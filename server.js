@@ -22,7 +22,7 @@ const app = express();
 // ============== 配置区（改成你自己的） ==============
 
 // Dify API 地址（自部署用 http://your-ip:port/v1，云端用 https://api.dify.ai/v1）
-const DIFY_API_URL = process.env.DIFY_API_URL || 'https://api.dify.ai/v1';
+const DIFY_API_URL = process.env.DIFY_API_URL || 'https://api.dify.cn/v1';
 
 // 你的 Dify 应用 API Key（在 Dify 应用的"访问 API"页面获取）
 const API_KEY = process.env.API_KEY || 'app-yv7Y5CnBe9zPxmIzFoJIH5xW';
